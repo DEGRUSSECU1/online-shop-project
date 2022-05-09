@@ -78,6 +78,13 @@ figure {
   list-style-type: none;
   background-color: #000000;
   line-height: 3;
-  padding: 5px 15px;
+
+  text-align: center;
+ 
 }
 
+.locations-section ul{
+    margin: 15px 40px;
+    width: 300px;
+    
+}
