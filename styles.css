@@ -1,0 +1,83 @@
+body {
+  background-color: #000000;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.nav-bar {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.nav-list .nav-item {
+  display: inline-flex;
+  padding: 20px 10px;
+}
+.nav-item a {
+  color: seashell;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  height: 50px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 1%;
+}
+.mission {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 1200px;
+}
+.main-background {
+  height: 700px;
+  margin-bottom: 10%;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+figure {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery img {
+  height: 200px;
+  width: 300px;
+}
+.location {
+  width: 100%;
+  height: 500xp;
+}
+
+.locations-section {
+  background-image: url("/resources/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  height: 500px;
+}
+.locations-section li {
+  list-style-type: none;
+  background-color: #000000;
+  line-height: 3;
+  padding: 5px 15px;
+}
+
