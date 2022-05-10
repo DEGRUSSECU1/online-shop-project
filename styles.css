@@ -67,7 +67,7 @@ figure {
 
 
 .locations-section {
-  background-image: url("/resources/img-locations-background.jpg");
+  background-image: url("./resources/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -98,6 +98,9 @@ figure {
 }
 
 /* start footer section */
+footer{
+  margin-top:20px;
+}
 .footer-info{
   display: flex;
   justify-content: center;
