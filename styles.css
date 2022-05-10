@@ -32,7 +32,7 @@ body {
   position: relative;
   text-align: center;
   color: white;
-  margin-top: 1%;
+
 }
 .mission {
   position: absolute;
@@ -47,6 +47,7 @@ body {
   margin-bottom: 10%;
 }
 
+/* tea of the month section start  */
 .gallery-container {
   display: flex;
   justify-content: space-around;
@@ -62,10 +63,8 @@ figure {
   height: 200px;
   width: 300px;
 }
-.location {
-  width: 100%;
-  height: 500xp;
-}
+/* locations section start */
+
 
 .locations-section {
   background-image: url("/resources/img-locations-background.jpg");
@@ -73,18 +72,37 @@ figure {
   background-size: 100% 100%;
   display: flex;
   height: 500px;
+  flex-direction: column;
+}
+
+.locations-section ul{
+  margin: 15px 40px;
+  width: 300px;
+  
 }
 .locations-section li {
   list-style-type: none;
   background-color: #000000;
   line-height: 3;
-
   text-align: center;
  
 }
+.locations-title-container{
+  display: flex;
+  justify-content: center;
+}
 
-.locations-section ul{
-    margin: 15px 40px;
-    width: 300px;
-    
+.lacations-container{
+  display: flex;
+  justify-content: center;
+}
+
+/* start footer section */
+.footer-info{
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-copyright{
+  margin: 20px;
 }
